@@ -1,0 +1,3 @@
+remote_theme: y7kim/agency-jekyll-theme  # e.g. pages-themes/minimal
+plugins:
+  - jekyll-remote-theme
