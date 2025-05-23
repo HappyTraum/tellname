@@ -1,61 +1,20 @@
 ---
-layout: home
+layout: default
 ---
-<!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Website im Aufbau</title>
-  <style>
-    body {
-      background-color: #f4f4f4;
-      color: #333;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
-      text-align: center;
-    }
 
-    h1 {
-      font-size: 3rem;
-      margin-bottom: 0.5rem;
-      color: #222;
-    }
+<div class="home">
 
-    h2 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-      color: #444;
-    }
+  <h1>Posts</h1>
 
-    p {
-      font-size: 1.25rem;
-      color: #666;
-    }
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 
-    .construction-icon {
-      font-size: 5rem;
-      margin-bottom: 1rem;
-    }
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-    .image-placeholder {
-      width: 200px; /* Adjust as needed */
-      height: 150px; /* Adjust as needed */
-      background-color: #ddd;
-      margin-bottom: 1rem;
-    }
-  </style>
-</head>
-<body>
-  <div class="construction-icon">🚧</div>
-  <h1>Website im Aufbau</h1>
-  <h2>Site under construction</h2>
-  <div class="image-placeholder">Image Placeholder</div>
-  <p>Schau bald wieder vorbei!</p>
-</body>
-</html>
+</div>
