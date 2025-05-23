@@ -1,7 +1,7 @@
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: ffffff # white - Schrift RW PT
-  secondary: fec503   
+  secondary: 775c00 # beige brown   
   secondary-dark: 6b5d2f # beige brown - Schrift Seitenmitte - Services
   muted: 777
 
