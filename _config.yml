@@ -2,7 +2,7 @@ title: TellName
 description: A customized site using the Agency Jekyll Theme
 email: your@email.com
 baseurl: "" # leave this empty unless you're in a subfolder
-url: "https://happytraum.github.io"
+url: "https://happytraum.github.io/tellname/"
 
 # Build settings
 markdown: kramdown
