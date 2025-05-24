@@ -1,0 +1,31 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; padding: 0;
+    background: #f8f8f8;
+}
+header {
+    background: #222;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+.intro-lead-in {
+    font-size: 24px;
+}
+.intro-heading {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.btn-xl {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn-xl:hover {
+    background: #0056b3;
+}
