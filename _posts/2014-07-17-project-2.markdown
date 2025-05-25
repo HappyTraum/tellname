@@ -1,6 +1,6 @@
 ---
-title: Escape
-subtitle: Website Design
+title: Wann macht eine Psychotherapie Sinn?
+subtitle: 
 layout: default
 modal-id: 2
 date: 2014-07-17
@@ -10,6 +10,9 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: Bei Leidenszuständen, die nicht rein körperlich sind z.B. bei Ängsten, Panik, innerer Unruhe,
+depressiven Verstimmungen und Erschöpfung, traumatischen Erfahrungen und ihren Folgen,
+Beziehungs- und Bindungsthemen z.B. immer wieder die selben Probleme in der Beziehung, 
+immer wieder verlassen werden, Einsamkeit, keine/n PartnerIn finden, Selbstwertproblemen und Identitätsfragen, in Übergangsphasen (Krise, Trennung, Neubeginn), bei Süchten sowie bei psychosomatischen Leiden etc.
 
 ---
