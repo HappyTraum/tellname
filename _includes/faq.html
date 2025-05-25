@@ -1,38 +1,81 @@
 <section class="faq">
-  <div class="faq-item">
-    <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0 0 20m0-20a10 10 0 0 1 0 20"/></svg>
-    <h3>Was ist Psychotherapie?</h3>
-    <p>Psychotherapie hilft dabei, seelisches Leid zu lindern, Krisen zu bewältigen und persönliche Entwicklung zu fördern.</p>
-  </div>
+  <h2>Häufige Fragen</h2>
+  <div class="faq-container">
 
-  <div class="faq-item">
-    <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 18h.01"/><path d="M12 14a4 4 0 1 0-4-4"/><circle cx="12" cy="12" r="10"/></svg>
-    <h3>Wann macht eine Psychotherapie Sinn?</h3>
-    <p>Wenn Sie sich überfordert, erschöpft oder festgefahren fühlen – und Unterstützung bei Veränderung oder Verarbeitung wünschen.</p>
-  </div>
+    <div class="faq-tile">
+      <div class="faq-icon">❓</div>
+      <div class="faq-question">Was ist Psychotherapie?</div>
+    </div>
 
-  <div class="faq-item">
-    <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-    <h3>Was kostet eine Sitzung und wie lange dauert sie?</h3>
-    <p>Eine Einheit dauert in der Regel 50 Minuten und kostet zwischen 80 und 100 €. Details klären wir im Erstgespräch.</p>
-  </div>
+    <div class="faq-tile">
+      <div class="faq-icon">💬</div>
+      <div class="faq-question">Wann macht eine Psychotherapie Sinn?</div>
+    </div>
 
-  <div class="faq-item">
-    <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-    <h3>Wie lange dauert eine Therapie?</h3>
-    <p>Die Dauer ist individuell verschieden. Manche Anliegen klären sich rasch, andere brauchen Zeit und Tiefe.</p>
-  </div>
+    <div class="faq-tile">
+      <div class="faq-icon">⏳</div>
+      <div class="faq-question">Was kostet eine Sitzung und wie lange dauert sie?</div>
+    </div>
 
-  <div class="faq-item">
-    <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-    <h3>Muss ich alles von mir preisgeben, damit es wirkt?</h3>
-    <p>Nein. Sie bestimmen, was Sie teilen möchten. Psychotherapie basiert auf Vertrauen und Freiwilligkeit.</p>
-  </div>
+    <div class="faq-tile">
+      <div class="faq-icon">📅</div>
+      <div class="faq-question">Wie lange dauert eine Therapie?</div>
+    </div>
 
-  <div class="faq-item">
-    <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M16 12h-4a2 2 0 1 1 0-4h4M8 12h4a2 2 0 1 1 0 4H8"/></svg>
-    <h3>Gibt es einen Sozialtarif?</h3>
-    <p>Ja, bei finanziellen Engpässen biete ich Sozialtarife nach individueller Absprache an. Sprechen Sie mich gerne an.</p>
+    <div class="faq-tile">
+      <div class="faq-icon">🔒</div>
+      <div class="faq-question">Muss ich alles von mir preisgeben, damit es wirkt?</div>
+    </div>
+
+    <div class="faq-tile">
+      <div class="faq-icon">💶</div>
+      <div class="faq-question">Gibt es einen Sozialtarif?</div>
+    </div>
+
   </div>
 </section>
 
+<style>
+.faq {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  font-family: sans-serif;
+}
+
+.faq h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.faq-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.faq-tile {
+  background-color: #775c00;
+  color: white;
+  width: 250px;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.faq-tile:hover {
+  transform: translateY(-5px);
+}
+
+.faq-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.faq-question {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+</style>
