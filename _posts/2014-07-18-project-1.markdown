@@ -1,6 +1,6 @@
 ---
 title: Was ist Psychotherapie?
-subtitle: ein paar Gedanken
+subtitle: einige Gedanken
 layout: default
 modal-id: 1
 img: dreams.png
