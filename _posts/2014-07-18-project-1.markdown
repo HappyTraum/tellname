@@ -6,7 +6,6 @@ modal-id: 1
 img: dreams.png
 thumbnail: dreams-thumbnail.png
 alt: image-alt
-category: Web Development
 description: Psychotherapie ist eine wissenschaftlich fundierte Heilbehandlung für leidvolles Erleben. Dabei kommt es im Idealfall zu einer neuen Erfahrung im Kontakt. Verzerrungen des Nervensystems können dadurch losgelassen werden, wodurch Körper und Geist mehr Ruhe erfahren.
 
 ---
