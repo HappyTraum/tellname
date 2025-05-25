@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Bei Leidenszuständen, die nicht rein körperlich sind z.B. bei Ängsten, Panik, innerer Unruhe, depressiven Verstimmungen und Erschöpfung, traumatischen Erfahrungen und ihren Folgen, Beziehungs- und Bindungsthemen z.B. immer wieder die selben Probleme in der Beziehung, immer wieder verlassen werden, Einsamkeit, keine/n PartnerIn finden, Selbstwertproblemen und Identitätsfragen, in Übergangsphasen (Krise, Trennung, Neubeginn), bei Süchten sowie bei psychosomatischen Leiden etc.
+description: Bei Leidenszuständen, die nicht rein körperlich sind z.B. bei Ängsten, Panik, innerer Unruhe, depressiven Verstimmungen und Erschöpfung, traumatischen Erfahrungen und ihren Folgen, Beziehungs- und Bindungsthemen etc.
 
 ---
