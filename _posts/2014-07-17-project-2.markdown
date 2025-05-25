@@ -7,8 +7,7 @@ date:
 img: escape.png
 thumbnail: escape-thumbnail.png
 alt: image-alt
-project-date: 
-client:
+project-date:
 Bei Leidenszuständen, die nicht rein körperlich sind z.B. bei Ängsten, Panik, innerer Unruhe, depressiven Verstimmungen und Erschöpfung, traumatischen Erfahrungen und ihren Folgen, Beziehungs- und Bindungsthemen z.B. immer wieder die selben Probleme in der Beziehung, immer wieder verlassen werden, Einsamkeit, keine/n PartnerIn finden, Selbstwertproblemen und Identitätsfragen, in Übergangsphasen (Krise, Trennung, Neubeginn), bei Süchten sowie bei psychosomatischen Leiden etc.
 
 ---
