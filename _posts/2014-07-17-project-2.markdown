@@ -3,7 +3,6 @@ title: Wann macht eine Psychotherapie Sinn?
 subtitle: eine persönliche Entscheidung
 layout: default
 modal-id: 2
-date: 
 img: escape.png
 thumbnail: escape-thumbnail.png
 alt: image-alt
