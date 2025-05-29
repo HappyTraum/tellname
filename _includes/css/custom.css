@@ -1,0 +1,76 @@
+﻿/* --- Your Custom CSS for FAQ Tiles --- */
+
+.faq-section {
+    padding: 40px 20px; /* Adjust padding as needed */
+    max-width: 1000px; /* Limit width for better readability */
+    margin: 0 auto; /* Center the section */
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 25px; /* Space between tiles */
+}
+
+.faq-tile {
+    background-color: #ffffff; /* White background for tiles */
+    border-radius: 8px; /* Slightly rounded corners */
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); /* Soft, elegant shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+    display: flex; /* Use flexbox for content alignment */
+    flex-direction: column;
+    justify-content: flex-start; /* Align content to the top */
+}
+
+.faq-tile:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12); /* Slightly stronger shadow on hover */
+}
+
+.faq-question {
+    font-size: 1.3em; /* Larger, prominent question */
+    color: #333; /* Darker text for question */
+    margin-bottom: 15px; /* Space between question and answer */
+    font-weight: 600; /* Make questions bold */
+}
+
+.faq-answer {
+    font-size: 1em;
+    color: #666; /* Slightly lighter text for answer */
+    line-height: 1.6;
+}
+
+/* Optional: Add a subtle border or specific color to the tile */
+.faq-tile {
+    border-top: 4px solid #8e44ad; /* Example: A subtle color border on top */
+    /* You can use a color that matches your theme's accent color */
+}
+
+/* --- Custom Font Style for Phone Number --- */
+.navbar-brand {
+    font-family: 'Lato', sans-serif; /* REPLACE THIS with your actual font name */
+    font-size: 1.5em; /* Adjust size as needed, e.g., 1.2em, 1.6em */
+    font-weight: 600; /* Adjust boldness: e.g., normal, 500, 700 */
+    color: #333; /* Change color if desired, e.g., a dark grey or your brand color */
+    letter-spacing: 0.05em; /* Optional: adjust spacing between letters */
+    text-transform: none; /* Ensure it's not all caps if theme applies it */
+
+}
+.navbar-default.navbar-shrink {
+    padding: 10px 0;
+    background-color: #f7c311; /* ← change this to your desired color - war 775c00 */
+}
+
+.navbar-default.navbar-shrink .nav li a {
+    color: #e7dcb4; /* dark text if navbar is now light - war 222 */
+}
+.navbar-default.navbar-shrink .nav li a:hover {
+    color: #775c00;
+}
+
+nav.navbar.navbar-default.navbar-shrink {
+    background-color: #f9c40f !important;
+}
+
+
