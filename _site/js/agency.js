@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * Start Bootstrap - Agnecy Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
@@ -34,4 +34,13 @@ $('div.modal').on('show.bs.modal', function() {
 			$(modal).modal('hide');
 		}
 	}
+});
+
+// Shrink the navbar when page is scrolled
+$(window).scroll(function() {
+    if ($("#mainNav").offset().top > 100) {
+        $("#mainNav").addClass("navbar-shrink");
+    } else {
+        $("#mainNav").removeClass("navbar-shrink");
+    }
 });

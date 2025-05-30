@@ -1,6 +1,6 @@
 ---
-title: Treehouse
-subtitle: Website Design
+title: Wie lange dauert eine Therapie?
+subtitle: von - bis
 layout: default
 modal-id: 4
 date: 2014-07-15
@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: Ich gehe von mindestens 10 Sitzungen aus, nach denen Sie eine Veränderung in Ihrem Leben wahrnehmen sollten. In manchen Fällen kann eine Therapie aber auch bis zu 3 Jahre dauern. 
 
 ---

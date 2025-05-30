@@ -172,12 +172,13 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #5d4f1f;
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.data.template.color.primary }};
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,cursive;
+        color: #0b0b0b;
+/*  war: color: #{{ site.data.template.color.primary }}; */
 }
 
 .navbar-default .navbar-brand:hover,

@@ -29,4 +29,13 @@ module Jekyll
   end
 end
 
+# 30.5. das rinkopiert laut cgpt:
+def hex_to_rgb(hex)
+  hex = hex.to_s.strip
+  hex = hex[1..-1] if hex.start_with?("#")
+  return unless hex.length == 6
+  rgb = hex.scan(/../).map(&:hex)
+  "rgb(#{rgb.join(',')})"
+end
+
 Liquid::Template.register_filter(Jekyll::HexToRGB)

@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Treehouse</title>
+    <title>Wie lange dauert eine Therapie?</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Richard Wolf Psychotherapie Wien 1170 Hernals Trauma traumasensibel in ausbildung unter Supervision humanistisch personzentriert">
     <link rel="canonical" href="http://localhost:4000/web%20development/2014/07/15/project-4.html">
@@ -36,7 +36,8 @@
     <body id="page-top" class="index">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <!-- das war vorher da: nav class="navbar navbar-default navbar-fixed-top" -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top"> <!-- 30.5. cgpt dazu tan -->
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -82,7 +83,7 @@
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in">Willkommen in meiner Praxis für Psychotherapie!</div>
-                <div class="intro-heading">.</div>
+                <div class="intro-heading"></div>
                 <a href="#services" class="page-scroll btn btn-xl">mehr erfahren</a>
             </div>
         </div>
@@ -103,15 +104,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Psychotherapie</h2> <!-- ist erster Punkt auf hp -->
-                    <h3 class="section-subheading text-muted">Psychotherapie ist die Behandlung von Leidenszuständen</h3>
+                    <h2 class="section-heading">mein Ansatz</h2> <!-- ist erster Punkt auf hp -->
+                    <h3 class="section-subheading text-muted">personzentrierte Psychotherapie</h3>
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-heart fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Begleitung</h4>
                     <p class="text-muted">In meiner Praxis begleite ich Menschen in schwierigen Lebensphasen, bei psychischen Belastungen oder einfach auf der Suche nach mehr Klarheit und Lebensfreude.</p>
@@ -119,7 +120,7 @@
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-leaf fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Traumasensibel</h4>
                     <p class="text-muted">Traumatische Erfahrungen können unser Leben tiefgreifend beeinflussen – oft auch unbewusst. In meiner Arbeit lege ich besonderen Wert auf eine
@@ -128,7 +129,8 @@
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-hand-rock-o fa-stack-1x fa-inverse"></i>
+<!-- war <i class="fa fa-lock fa-stack-1x fa-inverse"></i> -->
                     </span>
                     <h4 class="service-heading">Selbstermächtigung</h4>
                     <p class="text-muted">Ziel ist es nicht, Sie von mir oder einem anderen Therapeuten abhängig zu machen, damit Sie jahrelang Therapie machen müssen. Ziel ist es, Sie durch Begleitung dazu zu bekommen, Ihre Probleme selbst lösen zu können.</p>
@@ -147,6 +149,21 @@
                 </div>
             </div>
             <div class="row">
+            
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/golden-thumbnail.png" class="img-responsive img-centered" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Was kostet eine Sitzung und wie lange dauert sie?</h4>
+                        <p class="text-muted">Eine Investition in sich selbst</p>
+                    </div>
+                </div>
             
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
@@ -179,21 +196,6 @@
                 </div>
             
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/golden-thumbnail.png" class="img-responsive img-centered" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Golden</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-            
-                <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -203,8 +205,8 @@
                         <img src="img/portfolio/treehouse-thumbnail.png" class="img-responsive img-centered" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Treehouse</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Wie lange dauert eine Therapie?</h4>
+                        <p class="text-muted">von - bis</p>
                     </div>
                 </div>
             
@@ -218,8 +220,8 @@
                         <img src="img/portfolio/roundicons-thumbnail.png" class="img-responsive img-centered" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Round Icons</h4>
-                        <p class="text-muted">Graphic Design</p>
+                        <h4>Gibt es einen Sozialtarif?</h4>
+                        <p class="text-muted">Ja – mehr dazu</p>
                     </div>
                 </div>
             
@@ -233,8 +235,8 @@
                         <img src="img/portfolio/startup-framework-thumbnail.png" class="img-responsive img-centered" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Startup Framework</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Muss ich alles von mir preisgeben, damit es wirkt?</h4>
+                        <p class="text-muted">Warum das nicht nötig ist</p>
                     </div>
                 </div>
             
@@ -328,8 +330,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Weitere Informationen</h2>
-                    <h3 class="section-subheading text-muted">Psychotherapie....</h3>
+                    <h2 class="section-heading">Richard Wolf</h2>
+                    <h3 class="section-subheading text-muted">Psychotherapeut in Ausbildung unter Supervision</h3>
                 </div>
             </div>
             <div class="row">
@@ -337,7 +339,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Psychotherapie ist.....</p>
+                    <p class="large text-muted">Ich befinde mich in einer fortgeschrittenen Phase der Ausbildung zum Psychotherapeuten und werde regelmäßig von einer erfahrenen Supervisorin begleitet.</p>
                 </div>
             </div>
         </div>
@@ -440,6 +442,32 @@
 
      <!-- Portfolio Modals -->
  
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Was kostet eine Sitzung und wie lange dauert sie?</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/golden.png" class="img-responsive img-centered" alt="image-alt">
+                            <p>Eine Sitzung dauert 50 Minuten und kostet zwischen 70 und 80 Euro. Es gibt einen Sozialtarif von 60 Euro für Menschen, die finanziell gerade nicht so gut aufgestellt sind.</p>
+                            <ul class="list-inline item-details">
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -492,32 +520,6 @@
         </div>
     </div>
 
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Golden</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/golden.png" class="img-responsive img-centered" alt="image-alt">
-                            <p>Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.</p>
-                            <ul class="list-inline item-details">
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -530,10 +532,10 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Treehouse</h2>
+                            <h2>Wie lange dauert eine Therapie?</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/treehouse.png" class="img-responsive img-centered" alt="image-alt">
-                            <p>Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.</p>
+                            <p>Ich gehe von mindestens 10 Sitzungen aus, nach denen Sie eine Veränderung in Ihrem Leben wahrnehmen sollten. In manchen Fällen kann eine Therapie aber auch bis zu 3 Jahre dauern.</p>
                             <ul class="list-inline item-details">
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -556,10 +558,10 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Round Icons</h2>
+                            <h2>Gibt es einen Sozialtarif?</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/roundicons.png" class="img-responsive img-centered" alt="image-alt">
-                            <p>Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.</p>
+                            <p>Ja, 60 Euro für Menschen, die finanziell gerade nicht so gut aufgestellt sind, in Ausnahmefällen auch 50 Euro pro Einheit.</p>
                             <ul class="list-inline item-details">
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -582,10 +584,10 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Startup Framework</h2>
+                            <h2>Muss ich alles von mir preisgeben, damit es wirkt?</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/startup-framework.png" class="img-responsive img-centered" alt="image-alt">
-                            <p>Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.</p>
+                            <p>Nein. Sie entscheiden, wie viel Sie erzählen möchten. Ich muss nicht viel von Ihnen wissen, da sich im Kontakt hier und jetzt die Muster zeigen, die uns das Leben schwer machen.</p>
                             <ul class="list-inline item-details">
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>

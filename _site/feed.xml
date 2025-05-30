@@ -5,9 +5,22 @@
     <description>Richard Wolf Psychotherapie Wien 1170 Hernals Trauma traumasensibel in ausbildung unter Supervision humanistisch personzentriert</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 29 May 2025 17:34:17 +0200</pubDate>
-    <lastBuildDate>Thu, 29 May 2025 17:34:17 +0200</lastBuildDate>
-    <generator>Jekyll v3.9.0</generator>
+    <pubDate>Fri, 30 May 2025 13:05:29 +0200</pubDate>
+    <lastBuildDate>Fri, 30 May 2025 13:05:29 +0200</lastBuildDate>
+    <generator>Jekyll v4.3.4</generator>
+    
+      <item>
+        <title>Was kostet eine Sitzung und wie lange dauert sie?</title>
+        <description>
+</description>
+        <pubDate>Fri, 30 May 2025 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/psychische%20gesundheit/2025/05/30/project-3.html</link>
+        <guid isPermaLink="true">http://localhost:4000/psychische%20gesundheit/2025/05/30/project-3.html</guid>
+        
+        
+        <category>psychische Gesundheit</category>
+        
+      </item>
     
       <item>
         <title>Was ist Psychotherapie?</title>
@@ -34,20 +47,7 @@
       </item>
     
       <item>
-        <title>Golden</title>
-        <description>
-</description>
-        <pubDate>Wed, 16 Jul 2014 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/web%20development/2014/07/16/project-3.html</link>
-        <guid isPermaLink="true">http://localhost:4000/web%20development/2014/07/16/project-3.html</guid>
-        
-        
-        <category>Web Development</category>
-        
-      </item>
-    
-      <item>
-        <title>Treehouse</title>
+        <title>Wie lange dauert eine Therapie?</title>
         <description>
 </description>
         <pubDate>Tue, 15 Jul 2014 00:00:00 +0200</pubDate>
@@ -60,7 +60,7 @@
       </item>
     
       <item>
-        <title>Round Icons</title>
+        <title>Gibt es einen Sozialtarif?</title>
         <description>
 </description>
         <pubDate>Tue, 15 Jul 2014 00:00:00 +0200</pubDate>
@@ -73,7 +73,7 @@
       </item>
     
       <item>
-        <title>Startup Framework</title>
+        <title>Muss ich alles von mir preisgeben, damit es wirkt?</title>
         <description>
 </description>
         <pubDate>Mon, 14 Jul 2014 00:00:00 +0200</pubDate>

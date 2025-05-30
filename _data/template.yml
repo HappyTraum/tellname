@@ -1,9 +1,9 @@
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 9d8e7a # white - Schrift RW PT
-  secondary: 775c00 # beige brown - wenn man drüberfährt - hover
+  primary: 8a765c # white - Telefonnummer, hoverover Farbe von nav Menüpunkten, Mehr erfahren kasten, 3 symbole "begegnung, traumainformiert..." f1ca96 geht. 947042 hex problem.  917f68 zu dunkel
+  secondary: 775c00 # beige brown - wenn man drüberfährt - hover 775c00
   secondary-dark: 6b5d2f # beige brown - Schrift Seitenmitte - Services
-  muted: 777
+  muted: 777 # Schrift
 
 # Font Families
 font:
