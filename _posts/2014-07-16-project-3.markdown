@@ -1,6 +1,6 @@
 ---
 title: Was kostet eine Sitzung und wie lange dauert sie?
-subtitle: Eine Investition in sich selbst
+subtitle:
 layout: default
 modal-id: 3
 date: 2025-05-30
