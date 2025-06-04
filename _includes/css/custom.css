@@ -3,10 +3,10 @@
 /* --- Custom Font Style for Phone Number --- */
 .navbar-brand {
     font-family: 'Lato', sans-serif; /* REPLACE THIS with your actual font name */
-    font-size: 0.3em; /* Adjust size as needed, e.g., 1.2em, 1.6em */
+    /* --- font-size: 0.3em; ---*/ /* Adjust size as needed, e.g., 1.2em, 1.6em */
     font-weight: normal; /* Adjust boldness: e.g., normal, 500, 700 */
     color: #ffc500; /* Change color if desired, e.g., a dark grey or your brand color – war 333*/
-    letter-spacing: 0.01em; /* Optional: adjust spacing between letters */
+    /* --- letter-spacing: 0.01em; ---*/ /* Optional: adjust spacing between letters */
     text-transform: none; /* Ensure it's not all caps if theme applies it */
 
 }
