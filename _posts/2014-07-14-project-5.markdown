@@ -1,14 +1,14 @@
 ---
-title: Muss ich alles von mir preisgeben, damit es wirkt?
-subtitle: Warum das nicht nötig ist
+title: Was kostet eine Sitzung und wie lange dauert sie?
+subtitle: von - bis
 layout: default
 modal-id: 5
 date: 2014-07-14
-img: startup-framework.png
-thumbnail: startup-framework-thumbnail.png
+img: golden.png
+thumbnail: golden-thumbnail.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Nein. Sie entscheiden, wie viel Sie erzählen möchten. Ich muss nicht viel von Ihnen wissen, da sich im Kontakt hier und jetzt die Muster zeigen, die uns das Leben schwer machen.
+description: Eine Sitzung dauert 50 Minuten und kostet zwischen 70 und 80 Euro. Es gibt einen Sozialtarif von 60 Euro für Menschen, die finanziell gerade nicht so gut aufgestellt sind. 
 ---

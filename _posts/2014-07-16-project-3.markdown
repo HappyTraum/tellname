@@ -1,15 +1,15 @@
 ---
-title: Was kostet eine Sitzung und wie lange dauert sie?
+title: Ein paar Daten über mich
 subtitle:
 layout: default
 modal-id: 3
 date: 2025-05-30
-img: golden.png
-thumbnail: golden-thumbnail.png
+img: moi.png
+thumbnail: moi-thumbnail.png
 alt: image-alt
 project-date: 2025-05-30
 client: Start Bootstrap
 category: psychische Gesundheit
-description: Eine Sitzung dauert 50 Minuten und kostet zwischen 70 und 80 Euro. Es gibt einen Sozialtarif von 60 Euro für Menschen, die finanziell gerade nicht so gut aufgestellt sind. 
+description: Über 10 Jahre Erfahrung in der Arbeit mit Gruppen (Kinder und Erwachsene), seit 2023 begleite ich Menschen mit Psychoseerfahrung
 
 ---
