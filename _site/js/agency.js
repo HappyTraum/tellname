@@ -1,13 +1,9 @@
-﻿/*!
- * Start Bootstrap - Agnecy Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+/*!
+ * agency.js – angepasst für richardwolf.co.at
  */
 
-// jQuery for page scrolling feature - requires jQuery Easing plugin
-
-// Beim Laden prüfen, ob scrollTo-Parameter vorhanden ist
-$(document).ready(function() {
+$(document).ready(function () {
+  // Scrollen bei Parameter ?scrollTo=ziel
   const urlParams = new URLSearchParams(window.location.search);
   const targetId = urlParams.get('scrollTo');
   if (targetId) {
@@ -18,99 +14,48 @@ $(document).ready(function() {
       }, 400);
     }
   }
-});
 
-
-$(function() {
-    $('a.page-scroll').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 400, 'easeInOutExpo');
-        event.preventDefault();
-    });
-});
-
-// Highlight the top nav as scrolling occurs
-$('body').scrollspy({
-    target: '.navbar-fixed-top'
-})
-
-// Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
-    $('.navbar-toggle:visible').click();
-});
-
-$('div.modal').on('show.bs.modal', function() {
-	var modal = this;
-	var hash = modal.id;
-	window.location.hash = hash;
-	window.onhashchange = function() {
-		if (!location.hash){
-			$(modal).modal('hide');
-		}
-	}
-});
-
-// Shrink the navbar when page is scrolled
-$(window).scroll(function() {
-    if ($("#mainNav").offset().top > 100) {
-        $("#mainNav").addClass("navbar-shrink");
-    } else {
-        $("#mainNav").removeClass("navbar-shrink");
-    }
-});
-
-// Smooth scrolling when on homepage
-$(function () {
-  $('a.page-scroll').on('click', function (event) {
-    const pathname = location.pathname.replace(/\/$/, '');
-    const thisPath = this.pathname.replace(/\/$/, '');
-
-    if (pathname === thisPath && location.hostname === this.hostname) {
+  // Interne Scroll-Links (z. B. #portfolio)
+  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
+    if (
+      location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') &&
+      location.hostname === this.hostname
+    ) {
       const target = $(this.hash);
-      if (target.length) {
-        event.preventDefault();
+      const scrollTarget = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (scrollTarget.length) {
         $('html, body').animate({
-          scrollTop: target.offset().top,
-        }, 400);
+          scrollTop: scrollTarget.offset().top
+        }, 1000, "easeInOutExpo");
+        return false;
       }
     }
   });
-});
 
-// Smooth scroll from external pages (like impressum)
-$(function () {
-  const params = new URLSearchParams(window.location.search);
-  const scrollTarget = params.get('scrollTo');
-  if (scrollTarget) {
-    setTimeout(() => {
-      const target = $('#' + scrollTarget);
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top,
-        }, 400);
-      }
-    }, 300);
-  }
-});
+  // Menü schließen bei Klick auf Link (nur bei mobilen Menüs relevant)
+  $('.js-scroll-trigger').click(function () {
+    $('.navbar-collapse').collapse('hide');
+  });
 
+  // Aktivieren von scrollspy (nur wenn Body das Attribut data-bs-spy hat)
+  $('body').scrollspy({
+    target: '#mainNav',
+    offset: 80
+  });
 
-// Redirect from other pages to homepage + scroll to section
-$(function() {
-  // Check if URL contains ?scrollTo=
-  const urlParams = new URLSearchParams(window.location.search);
-  const scrollTarget = urlParams.get('scrollTo');
-  if (scrollTarget) {
-    // Wait a little to ensure page is rendered
-    setTimeout(() => {
-      const target = $('#' + scrollTarget);
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 400);
-      }
-    }, 300);
-  }
+  // Navbar verkleinern bei Scroll
+  var navbarCollapse = function () {
+    if ($("#mainNav").offset().top > 100) {
+      $("#mainNav").addClass("navbar-shrink");
+    } else {
+      $("#mainNav").removeClass("navbar-shrink");
+    }
+  };
+
+  // sofort prüfen
+  navbarCollapse();
+
+  // bei Scroll erneut prüfen
+  $(window).scroll(navbarCollapse);
 });
 

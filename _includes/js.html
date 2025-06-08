@@ -1,32 +1,16 @@
- <!-- jQuery Version 1.11.0 -->
-
-<!-- jQuery (muss zuerst!) -->
+<!-- Load jQuery (only once!) -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-<!-- Optional: jQuery Easing, wenn agency.js das braucht -->
+<!-- jQuery Easing plugin (only once, for smooth scroll animations) -->
 <script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js"></script>
 
-    <script src="{{ "/js/jquery-1.11.0.js" | prepend: site.baseurl }}"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
-<!-- Bootstrap JS (für scrollspy) -->
+<!-- Bootstrap JS (only once, must be compatible with your HTML structure and modals) -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="{{ "/js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/classie.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/cbpAnimatedHeader.js" | prepend: site.baseurl }}"></script>
+<!-- Optional plugins (only include if you actually use them) -->
+<script src="{{ "/js/classie.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/cbpAnimatedHeader.js" | prepend: site.baseurl }}"></script>
 
-    <!-- Contact Form JavaScript -->
-    <!-- <script src="{{ "/js/jqBootstrapValidation.js" | prepend: site.baseurl }}"></script> --> <!-- laut chatgpt rausgenommen damit formsubmit geht -->
-    <!-- <script src="{{ "/js/contact_me.js" | prepend: site.baseurl }}"></script> -->
-
-    <!-- Custom Theme JavaScript -->
-    <!-- <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script> -->
-
-<!-- Dein Custom Script -->
+<!-- Custom site JS -->
 <script src="{{ '/js/agency.js' | relative_url }}"></script>
-
-
 
