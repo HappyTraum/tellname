@@ -33,12 +33,3 @@
   margin-bottom: 10px;
 }
 
-/* Nur auf Impressum-Seite den Titel anpassen */
-body.impressum #impressum .section-heading {
-  font-family: 'Merriweather', serif; /* oder 'Lato', sans-serif, je nach Geschmack */
-  font-size: 1.8rem;  /* kleiner als bisher */
-  font-weight: 400;   /* normal */
-  color: #5a4d47;     /* dezentes Braun/Grau passend zum Stil */
-  margin-bottom: 1rem;
-}
-

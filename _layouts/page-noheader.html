@@ -1,0 +1,20 @@
+<!-- LAYOUT: page-noheader -->
+
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    {% include head.html %}
+  </head>
+  <body id="page-top" class="{{ page.body_class | default: 'index' }}">
+
+
+    {% include header-noimage.html %}
+
+    <main>
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>
+

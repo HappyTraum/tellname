@@ -902,5 +902,32 @@ body {
     background-color: #5d4f1f; /* ← change this to your desired color - war 775c00 */
 }
 
+/* custom.css */
+#impressum {
+  background-color: #d6d1ca; /* z. B. dein braun-grau */
+  padding: 60px 0;
+}
+
+#impressum h2 {
+  font-family: 'Kaushan Script', cursive;
+  color: #222;
+}
+
+#impressum p {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Nur auf Impressum-Seite den Titel anpassen */
+body.impressum #impressum .section-heading {
+  font-family: 'Merriweather', serif; /* oder 'Lato', sans-serif, je nach Geschmack */
+  font-size: 1.8rem;  /* kleiner als bisher */
+  font-weight: 400;   /* normal */
+  color: #5a4d47;     /* dezentes Braun/Grau passend zum Stil */
+  margin-bottom: 1rem;
+}
+
 
 
