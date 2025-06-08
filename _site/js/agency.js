@@ -16,26 +16,25 @@ $(document).ready(function () {
   }
 
   // Interne Scroll-Links (z. B. #portfolio)
-  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
-    if (
-      location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') &&
-      location.hostname === this.hostname
-    ) {
-      const target = $(this.hash);
-      const scrollTarget = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      if (scrollTarget.length) {
-        $('html, body').animate({
-          scrollTop: scrollTarget.offset().top
-        }, 1000, "easeInOutExpo");
-        return false;
-      }
-    }
-  });
+/home/richard/tellname/js/agency.js
 
   // Menü schließen bei Klick auf Link (nur bei mobilen Menüs relevant)
-  $('.js-scroll-trigger').click(function () {
-    $('.navbar-collapse').collapse('hide');
-  });
+$('a.js-scroll-trigger[href*="#"]:not([href="#"])').on("click", function (event) {
+  if (
+    location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') &&
+    location.hostname === this.hostname
+  ) {
+    const target = $(this.hash);
+    const scrollTarget = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    if (scrollTarget.length) {
+      event.preventDefault(); // ← prevent default jump
+      $('html, body').animate({
+        scrollTop: scrollTarget.offset().top
+      }, 400); // ← 400ms scroll time
+    }
+  }
+});
+
 
   // Aktivieren von scrollspy (nur wenn Body das Attribut data-bs-spy hat)
   $('body').scrollspy({
