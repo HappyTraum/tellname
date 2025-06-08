@@ -5,12 +5,28 @@
  */
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
+
+// Beim Laden prüfen, ob scrollTo-Parameter vorhanden ist
+$(document).ready(function() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const targetId = urlParams.get('scrollTo');
+  if (targetId) {
+    const target = $('#' + targetId);
+    if (target.length) {
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 400);
+    }
+  }
+});
+
+
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
+        }, 400, 'easeInOutExpo');
         event.preventDefault();
     });
 });
@@ -44,3 +60,57 @@ $(window).scroll(function() {
         $("#mainNav").removeClass("navbar-shrink");
     }
 });
+
+// Smooth scrolling when on homepage
+$(function () {
+  $('a.page-scroll').on('click', function (event) {
+    const pathname = location.pathname.replace(/\/$/, '');
+    const thisPath = this.pathname.replace(/\/$/, '');
+
+    if (pathname === thisPath && location.hostname === this.hostname) {
+      const target = $(this.hash);
+      if (target.length) {
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top,
+        }, 400);
+      }
+    }
+  });
+});
+
+// Smooth scroll from external pages (like impressum)
+$(function () {
+  const params = new URLSearchParams(window.location.search);
+  const scrollTarget = params.get('scrollTo');
+  if (scrollTarget) {
+    setTimeout(() => {
+      const target = $('#' + scrollTarget);
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top,
+        }, 400);
+      }
+    }, 300);
+  }
+});
+
+
+// Redirect from other pages to homepage + scroll to section
+$(function() {
+  // Check if URL contains ?scrollTo=
+  const urlParams = new URLSearchParams(window.location.search);
+  const scrollTarget = urlParams.get('scrollTo');
+  if (scrollTarget) {
+    // Wait a little to ensure page is rendered
+    setTimeout(() => {
+      const target = $('#' + scrollTarget);
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 400);
+      }
+    }, 300);
+  }
+});
+

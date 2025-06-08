@@ -1,45 +1,32 @@
 <!-- Navigation -->
-    <!-- das war vorher da: nav class="navbar navbar-default navbar-fixed-top" -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top"> <!-- 30.5. cgpt dazu tan -->
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">{{"0664 157 5023"}}</a>
-            </div>
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Mein Ansatz</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">FAQ</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">Über mich</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">Supervision</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Kontakt</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+    <!-- Brand and toggle -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{{ '/' | relative_url }}">0664 157 5023</a>
+    </div>
+
+    <!-- Links -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="{% if page.url == '/' or page.url == '/index.html' %}#services{% else %}{{ '/' | relative_url }}?scrollTo=services{% endif %}" class="page-scroll">Mein Ansatz</a></li>
+        <li><a href="{% if page.url == '/' or page.url == '/index.html' %}#portfolio{% else %}{{ '/' | relative_url }}?scrollTo=portfolio{% endif %}" class="page-scroll">FAQ</a></li>
+        <li><a href="{% if page.url == '/' or page.url == '/index.html' %}#about{% else %}{{ '/' | relative_url }}?scrollTo=about{% endif %}" class="page-scroll">Über mich</a></li>
+        <li><a href="{% if page.url == '/' or page.url == '/index.html' %}#team{% else %}{{ '/' | relative_url }}?scrollTo=team{% endif %}" class="page-scroll">Supervision</a></li>
+        <li><a href="{% if page.url == '/' or page.url == '/index.html' %}#contact{% else %}{{ '/' | relative_url }}?scrollTo=contact{% endif %}" class="page-scroll">Kontakt</a></li>
+        <!-- <li><a href="{{ '/impressum/' | relative_url }}">Impressum</a></li> -->
+      </ul>
+    </div>
+  </div>
+</nav>
+
 
     <!-- Header -->
     <header>
@@ -47,7 +34,7 @@
             <div class="intro-text">
                 <div class="intro-lead-in">Willkommen in meiner Praxis für Psychotherapie!</div>
                 <div class="intro-heading"></div>
-                <a href="#services" class="page-scroll btn btn-xl">mehr erfahren</a>
+                <a href="{{ '/' | relative_url }}#services" class="page-scroll btn btn-xl">mehr erfahren</a>
             </div>
         </div>
     </header>
