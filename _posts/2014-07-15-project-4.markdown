@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Ich gehe von mindestens 10 Sitzungen aus, nach denen Sie eine Veränderung in Ihrem Leben wahrnehmen sollten. In manchen Fällen kann eine Therapie aber auch bis zu 3 Jahre dauern. 
+description: Ich gehe von mindestens 10 Sitzungen aus, nach denen Sie eine Veränderung in Ihrem Leben wahrnehmen sollten. In manchen Fällen kann eine Therapie aber auch mehrere Jahre dauern. 
 
 ---
