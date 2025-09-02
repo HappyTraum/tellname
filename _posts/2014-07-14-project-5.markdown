@@ -10,5 +10,5 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Eine Sitzung dauert 50 Minuten und kostet zwischen 70 und 80 Euro. Es gibt einen Sozialtarif von 60 Euro für Menschen, die finanziell gerade nicht so gut aufgestellt sind. 
+description: Eine Sitzung dauert 50 Minuten und kostet zwischen 70 und 80 Euro. Es gibt einen Sozialtarif von 50-60 Euro für Menschen, die finanziell gerade nicht so gut aufgestellt sind. 
 ---
