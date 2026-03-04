@@ -1,0 +1,20 @@
+remote_theme: mmistakes/minimal-mistakes
+
+title: Richard Wolf
+description: Psychotherapeut in Ausbildung unter Supervision – personzentriert & traumasensibel
+url: "https://richardwolf.co.at"
+baseurl: ""
+
+minimal_mistakes_skin: "air"
+
+# Required for local preview (and GitHub Pages)
+plugins:
+  - jekyll-include-cache
+
+header_pages:
+  - ueber-mich.md
+  - mein-ansatz.md
+  - kontakt.md
+
+# Soft calming color (you can change the hex anytime)
+accent_color: "#2c7a7b"
